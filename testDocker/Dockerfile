@@ -1,4 +1,4 @@
 FROM openjdk:11
-ADD target/testDocker.jar testDocker.jar
+ADD target/testdocker.jar testdocker.jar
 EXPOSE 8079
-ENTRYPOINT [ "java", "-jar", "testDocker.jar" ]
+ENTRYPOINT [ "java", "-jar", "testdocker.jar" ]

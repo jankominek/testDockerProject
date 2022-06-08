@@ -1,13 +1,10 @@
 version: "3.5"
-networks:
-  default:
-    driver: bridge
 services:
   application_service:
-    container_name: testDocker
+    container_name: test-docker
     restart: always
     build:
-      context: ./testDocker
+      context: ./testdocker
       dockerfile: Dockerfile
     ports:
       - "8079:8079"
