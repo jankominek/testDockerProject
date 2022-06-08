@@ -11,7 +11,7 @@ public class TestDockerApplication {
 
 	@GetMapping("/test")
 	public String test(){
-		return "Test przebiegł prawidłowo!";
+		return "Cześć jula";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(TestDockerApplication.class, args);
